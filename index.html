@@ -1,1 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body,
+        .jumbotron {
+            padding: 30px;
+        }
+
+        .timer {
+            font-size: 50px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="jumbotron text-center">
+        <!--timer-->
+        <div class="timer">
+            <span class="minutes">00</span>:<span class="seconds">00</span>
+
+            <!--buttons-->
+            <div class="timer-buttons">
+                <button class="btn btn-lg btn-success" data-action="start">Start</button>
+                <button class="btn btn-lg btn-danger" data-action="stop">stop</button>
+                <div class="button btn btn-link btn-block" data-action="reset">reset</div>
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
